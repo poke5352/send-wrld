@@ -6,6 +6,17 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Send WRLD</title>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://send-wrld-to.me/" />
+        <meta property="og:image" content="" />
+        <meta
+          property="og:description"
+          content="Do you have tons of useless WRLD?
+        If you do, you should send it to me:
+        0x2A66D7ff23a74174e1f9807A6043a9Ad478be63f"
+        />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta name="theme-color" content="#add8e6" />
       </Head>
 
       <main className={styles.main}>
