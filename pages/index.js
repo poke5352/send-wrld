@@ -6,6 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Send WRLD</title>
+        <meta property="og:title" content="Send-WRLD-to.me" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://send-wrld-to.me/" />
         <meta property="og:image" content="" />
